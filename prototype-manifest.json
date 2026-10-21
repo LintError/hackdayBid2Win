@@ -1,0 +1,19 @@
+{
+  "name": "Hack Day Competition Platform Prototype",
+  "stack": [
+    "Next.js",
+    "TypeScript",
+    "Supabase"
+  ],
+  "routes": [
+    "/",
+    "/join",
+    "/quiz",
+    "/bug-hunt",
+    "/leaderboard",
+    "/admin",
+    "/display"
+  ],
+  "prototype_mode": true,
+  "production_warning": "Demo uses browser localStorage; implement server-authoritative Supabase backend and RLS before a real competition."
+}
